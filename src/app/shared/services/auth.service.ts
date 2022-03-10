@@ -18,7 +18,7 @@ export class AuthService {
       environment.apiUrl + '/' + user.LoginId + '/' + user.Password
 
       // https://localhost:44381/sreehari/password
-    ).pipe(map((resp: any) => resp.json()));
+    )
     console.log('loginverify');
   }
 
